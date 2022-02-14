@@ -25,6 +25,7 @@ header h1 {
 header a {
     text-decoration: none;
     color: white;
+    text-shadow: 0 0 10px black;
 }
 header nav {
     margin: 8px 0;
@@ -62,7 +63,6 @@ header nav ul li a:hover {
 .aboutme-content h2 {
     font-size: 40px;
     color:#ca6680;
-    text-shadow: 0 0 10px white;
 }
 .aboutme-content p {
     font-size: 20px;
@@ -85,8 +85,7 @@ header nav ul li a:hover {
 }
 .my-work h2 {
     font-size: 40px;
-    color: #ca6680;
-    text-shadow: 0 0 10px white;
+    color: #d57a66;
 }
 .projects {
     width: 100%;
@@ -97,7 +96,7 @@ header nav ul li a:hover {
 }
 .project{
     margin: 20px;
-    background-color: #d57a66;
+    background-color: #ca6680;
     color: white;
     flex: 1;
 }
@@ -118,12 +117,59 @@ header nav ul li a:hover {
 }
 .project-bio p {
     margin: 10px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: lighter;
 }
-
 .flex-row {
     display: flex;
 }
+/* Contact Me Section */
+.contact-me {
+    background-color: #d57a66;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-h2 {
+    color: #ca6680;
+    font-size: 40px;
+    margin: 2%;
+    text-align: center;
+}
+.form input, .form textarea {
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.form label {
+    padding: 8px;
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+.form button {
+    width: 100%;
+    border: none;
+    background-color: #ca6680;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form button:hover {
+    background-color: #edc79b;
+}
+
+
+
+
 
 
