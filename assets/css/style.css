@@ -167,6 +167,39 @@ header nav ul li a:hover {
 .form button:hover {
     background-color: #edc79b;
 }
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #edc79b;
+    margin-top: 20px;
+}
+footer h2{
+    color: #ca6680;
+    font-size: 30px;
+}
+footer div {
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 25px;
+        width: 100%;
+        justify-content: center
+    }
+    .project {
+        flex: 0 70%;
+    }
+}
 
 
 
