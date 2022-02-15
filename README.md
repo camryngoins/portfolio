@@ -13,3 +13,4 @@
 https://camryngoins.github.io/portfolio/
 
 ## Screenshot
+![portfolio](portfolio/assets/images/portfolio-screenshot)
