@@ -51,12 +51,11 @@ header nav ul li a:hover {
 /* About Me Section */
 .about-me {
     display: flex;
-    flex-wrap: wrap;
 }
 .aboutme-content {
     width: 50%;
     text-align: left;
-    margin: 2%;
+    margin: 4%;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -71,17 +70,20 @@ header nav ul li a:hover {
 .aboutme-content a {
     color: black;
 }
+.aboutme-img {
+    width: 45%;
+}
 .headshot-img {
-    height: 400px;
-    width: 400px;
-    margin-left: 900px;
-    margin-top: -200px;
+    width: 350px;
+    height: 350px;
+    margin-top: 8%;
+    margin-left: 25%;
 }
 /* My Work Section */
 .my-work {
     display: flex;
     flex-wrap: wrap;
-    margin: 2%;
+    margin: 4%;
 }
 .my-work h2 {
     font-size: 40px;
@@ -198,6 +200,26 @@ footer div {
     }
     .project {
         flex: 0 70%;
+    }
+    .about-me {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .aboutme-content{
+        text-align: center;
+    }
+    .aboutme-img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        justify-content: center;
+        margin-left: 40%;
+        margin-right: 50%;
+    }
+    .mywork-h2 {
+        width: 100%;
+        text-align: center;
     }
 }
 
